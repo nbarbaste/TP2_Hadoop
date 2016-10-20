@@ -8,4 +8,4 @@ This repository contains the .java for the 3 questions of the TP2
 
 (WordCount.java is the example used to answer the questions)
 
-
+Additionaly, there is a .sql which sumarize the steps I used to setup the Database on hive (the file also contains the SQL resquests for the TP2 questions)
