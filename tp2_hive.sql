@@ -13,3 +13,9 @@ GROUP BY origins;
 
 Exo 2 : 
 SELECT SIZE(origin), COUNT(prenom) FROM prenoms GROUP BY SIZE(origin);
+
+Exo 3 :
+SELECT genders, COUNT(prenom) 
+FROM prenoms 
+LATERAL VIEW EXPLODE (gender) gendersList AS genders 
+GROUP BY genders;
